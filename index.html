@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <div class="container">
+
+            <div class="nav">
+                <p><span id="current"></span>/<span id="count"></span></p>
+                <i class="fas fa-bars" id="menu"></i>
+            </div>
+
+            <ul id="nav-list">
+                
+            </ul>
+            <h1 id="title"></h1>
+
+            <p id="singer"></p>
+
+            <img src="" alt="" id="poster">
+
+            <div class="btn-container">
+                <i class="fas fa-caret-left" id="prev"></i>
+                <i class="fas fa-play" id="play"></i>
+                <i class="fas fa-caret-right" id="next"></i>
+            </div>
+
+            <input type="range" id="range" min="0" max="100">
+            <div class="showDuration">
+                <div id="currentDuration"></div>
+                <div id="songDuration"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
